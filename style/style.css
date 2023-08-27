@@ -11,6 +11,11 @@
 
 body {
     background: linear-gradient(180deg, #E9E4F0 43.02%, #C8BBE7 100%);
+    transition: 1s;
+}
+
+.nav-item1 {
+    display: none;
 }
 
 .nav-menu {
@@ -44,7 +49,6 @@ ul {
 }
 
 li {
-
     list-style: none;
     display: flex;
     align-items: center;
@@ -67,6 +71,7 @@ input[type="checkbox"] {
 
 .bi-sun {
     display: none;
+    color: #fff;
 }
 
 main {
@@ -77,6 +82,10 @@ main {
 
 .principal {
     border-top: 0.4px solid black;
+}
+
+.contatos-dark {
+    display: none;
 }
 
 .contatos-light {
@@ -136,6 +145,74 @@ main {
     border: none;
     cursor: pointer;
 }
+
+/*DARK MODE*/
+
+.dark,
+.dark body {
+    background: linear-gradient(180deg, #476781 0%, #0C2442 100%);
+}
+
+.dark .nome {
+    color: #fff;
+}
+
+.dark .nav-item {
+    display: none;
+    
+}
+
+.dark .nav-item1 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.dark .nav-item {
+    color: #fff;
+}
+
+.dark .bi-sun {
+    display: block;
+    fill: #fff;
+  }
+  
+  .dark .bi-moon {
+    display: none;
+  }
+
+  .dark .principal {
+    border-top: 0.4px solid white;
+  }
+
+  .dark .contatos-light {
+    display: none;
+  }
+
+  .dark .contatos-dark {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .dark .sobre {
+    color: #fff;
+  }
+
+  .dark .pP {
+    color: #fff;
+  }
+
+  .dark .eu {
+    color: #fff;
+ 
+  }
+  
+  .dark .btn {
+    background: #D6E7FC;
+    color: #0C2442;
+  }
+
 
 
 
