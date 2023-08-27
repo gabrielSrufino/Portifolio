@@ -26,3 +26,4 @@ changeThemeBtn.addEventListener("change", function () {
     localStorage.setItem("dark", 1);
   }
 });
+
