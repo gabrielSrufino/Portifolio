@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400&family=Sarala&display=swap');
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-decoration: none
+}
+
+body {
+    background: linear-gradient(180deg, #E9E4F0 43.02%, #C8BBE7 100%);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 22px 0px 22px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.nome{
+    color: #0C2442;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    justify-content: space-evenly;
+
+}
+
+li {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #0C2442;
+font-family: Sarala;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.bi {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-sun {
+    display: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.principal {
+    border-top: 0.4px solid black;
+}
+
+.contatos-light {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    gap: 140px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sobre {
+    color: #0C2442;
+    
+}
+
+.pP {
+    color: #0C2442;
+    text-align: center;
+    font-family: Bahnschrift;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.eu {
+    color: #0C2442;
+    font-family: Bahnschrift;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn {
+    width: 278px;
+    height: 54px;
+    border-radius: 12px;
+    background: #0C2442;
+    color: #E9E4F0;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
